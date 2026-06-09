@@ -2,7 +2,7 @@ import Button from "../components/Button";
 import ecouteur from "../assets/card1/ecouteur.png"
 import ps4 from "../assets/card1/ps4.png"
 import yellowAppleWatch from "../assets/card1/yellowAppleWatch.png"
-import laptop from "../assets/card1/laptop.png"
+import Laptop from "../assets/card1/Laptop.png"
 import VRMan from "../assets/card1/VRMan.png"
 import bluetooph from "../assets/card1/bluetooph.png"
 import bus from "../assets/details/bus.svg"
@@ -64,7 +64,7 @@ export const card1 = [
         middle: 'Device',
         product: 'laptop',
         boutton: <Button text={'Browse'} col="bg-white text-red-500 lg:w-1/4 sm:w-1/4"/>,
-        image: laptop,
+        image: Laptop,
         backgroud : 'bg-red-500 flex flex-col p-4 rounded-xl w-full sm:w-full lg:w-1/2 mb-20  justify-center lg:flex lg:gap-3'
     }
 ]
