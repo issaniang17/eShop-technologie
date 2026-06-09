@@ -8,7 +8,7 @@ const HeroSection = () => {
             <h3 className="font-semibold lg:text-2xl mr-3">Beats solo</h3>
             <h3 className="font-bold text-3xl lg:text-5xl mr-3">Wireless</h3>
             <div>
-                <h3 className="font-bold text-4xl mr-3 uppercase text-white lg:text-9xl tracking-wider">headphone</h3>
+                <h3 className="font-bold text-4xl mr-3 uppercase text-white lg:text-9xl tracking-widest">headphone</h3>
                 <img src={blackHeadohone} alt={blackHeadohone} className='absolute top-0.5 right-1 w-[80%]  lg:mt-0 lg:absolute lg:top-0 '/>
             </div>
             <button className='mt-10  rounded-3xl p-4 bg-red-600 text-white hover:bg-slate-900 relative z-50 lg:w-[20%] duration-200 transition'>

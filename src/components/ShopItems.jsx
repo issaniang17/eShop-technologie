@@ -17,7 +17,7 @@ const ShopItems = () => {
                 
                 {item.product === 'earphone' && (
                     <div>
-                        <img src={item.image} alt={item.product}  className="absolute -top-20 w-[60%] right-0  h-71.5 lg:absolute lg:top-20 lg:-right-5 lg:w-full lg:h-80"/>
+                        <img src={item.image} alt={item.product}  className="absolute -top-20 w-[60%] right-0  h-71.5 lg:absolute lg:top-20 lg:-right-5 lg:w-full lg:h-84"/>
                     </div>
                 )}
                 {item.product === 'gadget' && (
