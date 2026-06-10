@@ -44,7 +44,7 @@ const Navbar = () => {
         </div>
         {mobileMenu &&(
             hideMenu && (
-                <div className='w-full text-center flex flex-col gap-3 h-screen bg-neutral-100 absolute top-0 left-0 items-center'>
+                <div className='w-full text-center flex flex-col gap-3 h-screen bg-neutral-100 absolute top-0 left-0 items-center z-100 '>
                     <button onClick={hiddeMenu} className='border rounded-full p-2 my-3'>
                         <X />
                     </button>
