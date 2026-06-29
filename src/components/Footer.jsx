@@ -3,9 +3,9 @@ import { footer } from "../constantes/Constante"
 
 const Footer = () => {
   return (
-    <div className="mx-3 mt-10 grid   sm:grid-cols-2 lg:grid-cols-[200px_150px_200px_1fr] lg:gap-6 gap-4 px-5 box-border">
+    <div className="mx-3 mt-10 grid  text-center sm:text-start sm:grid-cols-2 lg:grid-cols-[200px_150px_200px_1fr] lg:gap-6 gap-4 px-5 box-border">
         {footer.map((item, index)=>(
-            <div key={index} className="text-center sm:text-start">
+            <div key={index} className="place-items-center lg:place-items-start">
                 {item.image &&(
                     <div className="justify-items-center sm:justify-items-start">
                         <img src={item.image} alt="" />
@@ -36,9 +36,9 @@ const Footer = () => {
                     </div>
                 )}
                 {item.update &&(
-                    <div className="my-2 mx-4">
+                    <div className="my-2 mx-4 lg:text-center">
                         <h2 className="font-bold text-2xl my-2">{item.update}</h2>
-                        <form action="#" className="rounded-full bg-linear-to-r from-gray-100 to-gray-400 p-2 w-full mt-10">
+                        <form action="#" className="rounded-full bg-linear-to-r from-gray-100 to-gray-400 p-2  mt-10 w-full">
                             {item.formulaire}
                         </form>
                     </div>

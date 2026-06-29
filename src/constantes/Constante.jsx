@@ -253,7 +253,7 @@ export const promotion2 =
             update: 'For Latest News & Updates',
             formulaire: <label htmlFor="email" className="flex justify-between px-2">
                 <input type="email" required placeholder="Enter your Email" className="p-2 lg:w-[80%] focus:border-0 focus:outline-0"/>
-                <Button text='Subscribe' col="bg-red-500 text-white lg:w-[20%]"/>
+                <Button text='Subscribe' col="bg-red-500 text-white lg:w-[25%]"/>
             </label>
         }
     ]

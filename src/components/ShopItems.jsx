@@ -22,7 +22,7 @@ const ShopItems = () => {
                 )}
                 {item.product === 'gadget' && (
                     <div>
-                        <img src={item.image} alt={item.product}  className="absolute -top-15 w-[50%]  -right-5 lg:-right-10 h-[75%] lg:w-full lg:h-1/2 lg:top-5"/>
+                        <img src={item.image} alt={item.product}  className="absolute -top-15 w-[50%]  -right-2 lg:-right-10 h-[75%] lg:w-full lg:h-1/2 lg:top-5"/>
                     </div>
                 )}
                     {item.product === 'laptop' && (
