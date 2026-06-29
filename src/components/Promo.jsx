@@ -43,7 +43,7 @@ export const Promo2 = () => {
                 </div>
                 
             </div>
-        <img src={promotion2.image} alt={promotion2.title} className="absolute lg:w-[60%] lg:-top-70 sm:-top-50 sm:right-60 lg:right-120 sm:w-[70%] w-1/2 -top-25 right-20" />
+        <img src={promotion2.image} alt={promotion2.title} className="absolute lg:w-[50%] lg:-top-50 sm:-top-50 sm:right-60 lg:right-125 sm:w-[70%] w-1/2 -top-25 right-20" />
     </div>
   )
 }
